@@ -28,7 +28,6 @@ struct FoodItemRow: View {
                         .padding(.top, 120)
                     HStack {
                         Text(item.name)
-                        Text("$ \(item.price)")
                     }
                 } else {
                     HStack {
@@ -54,5 +53,5 @@ struct FoodItemRow: View {
 }
 
 #Preview {
-    FoodItemRow(item: FoodItem(name: "", description: "", price: 2, image: ""))
+    FoodItemRow(item: FoodItem(name: "hello", description: "", price: 2, image: ""))
 }
