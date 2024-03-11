@@ -1,0 +1,347 @@
+{
+    "food_items": [
+      {
+        "name": "Pizza Margherita",
+        "description": "Classic pizza with tomato sauce, mozzarella cheese, and fresh basil",
+        "price": 299,
+        "image": "https://www.saveur.com/uploads/2019/07/08/JTPSD2ONPYISBHIP4CJ5HDW55A.jpg"
+      },
+      {
+        "name": "Butter Chicken",
+        "description": "Tender chicken cooked in a creamy tomato sauce with spices",
+        "price": 349,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Chicken_makhani.jpg/1280px-Chicken_makhani.jpg"
+      },
+      {
+        "name": "Sushi Platter",
+        "description": "Assorted sushi rolls with fresh fish and vegetables",
+        "price": 599,
+        "image": "https://sodelicious.recipes/wp-content/uploads/2018/10/13.07.2018-R-4-lat-50-sushi-Sushi-Party-Platter.jpg"
+      },
+      {
+        "name": "Burger",
+        "description": "Juicy beef patty with lettuce, tomato, and cheese on a sesame seed bun",
+        "price": 199,
+        "image": "https://www.foodandwine.com/thmb/pwFie7NRkq4SXMDJU6QKnUKlaoI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Ultimate-Veggie-Burgers-FT-Recipe-0821-5d7532c53a924a7298d2175cf1d4219f.jpg"
+      },
+      {
+        "name": "Pad Thai",
+        "description": "Stir-fried rice noodles with shrimp, chicken, bean sprouts, and peanuts",
+        "price": 399,
+        "image": "https://inquiringchef.com/wp-content/uploads/2023/02/Authentic-Pad-Thai_square-1908.jpg"
+      },
+      {
+        "name": "Tandoori Chicken",
+        "description": "Marinated chicken cooked in a clay oven with spices",
+        "price": 449,
+        "image": "https://www.cubesnjuliennes.com/wp-content/uploads/2022/12/Tandoori-Chicken-Recipe.jpg"
+      },
+      {
+        "name": "Fish and Chips",
+        "description": "Crispy battered fish with french fries and tartar sauce",
+        "price": 299,
+        "image": "https://cdn.britannica.com/79/234779-050-4B07137B/fish-and-chips-mushy-peas.jpg"
+      },
+      {
+        "name": "Pasta Carbonara",
+        "description": "Spaghetti with bacon, eggs, and parmesan cheese in a creamy sauce",
+        "price": 349,
+        "image": "https://www.thespruceeats.com/thmb/ovIQQQxQajADuIE2lqhgqq7ppyE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/pasta-carbonara-recipe-5210168-hero-01-80090e56abc04ca19d88ebf7fad1d157.jpg"
+      },
+      {
+        "name": "Chicken Tikka Masala",
+        "description": "Grilled chicken in a creamy tomato sauce with spices",
+        "price": 399,
+        "image": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG"
+      },
+      {
+        "name": "Samosas",
+        "description": "Crispy pastry filled with spiced potatoes and peas",
+        "price": 149,
+        "image": "https://www.seriouseats.com/thmb/4HxqFS6SHsh1XBCXWWHbsyrGOxI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20210909-SAMOSAS-ANDREWJANJIGIAN-86-ca872c2eae8e4e7eb4e7b47cfad8715e.jpg"
+      },
+      {
+        "name": "Pho",
+        "description": "Vietnamese noodle soup with beef, herbs, and spices",
+        "price": 349,
+        "image": "https://hot-thai-kitchen.com/wp-content/uploads/2023/04/pho-beef-blog.jpg"
+      },
+      {
+        "name": "Chicken Caesar Salad",
+        "description": "Grilled chicken with romaine lettuce, croutons, and parmesan cheese",
+        "price": 249,
+        "image": "https://www.jessicagavin.com/wp-content/uploads/2022/06/chicken-caesar-salad-28-1200.jpg"
+      },
+      {
+        "name": "Beef Stroganoff",
+        "description": "Tender beef in a creamy mushroom sauce served over egg noodles",
+        "price": 449,
+        "image": "https://www.allrecipes.com/thmb/mSWde3PHTu-fDkbvWBw0D1JlS8U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/25202beef-stroganoff-iii-ddmfs-3x4-233-0f26fa477e9c446b970a32502468efc6.jpg"
+      },
+      {
+        "name": "Falafel Wrap",
+        "description": "Falafel balls with lettuce, tomato, and tahini sauce wrapped in a pita",
+        "price": 199,
+        "image": "https://heartfultable.com/wp-content/uploads/2019/08/Vegan-Falafel-Wrap-1.jpg"
+      },
+      {
+        "name": "Chicken Fried Rice",
+        "description": "Stir-fried rice with chicken, vegetables, and soy sauce",
+        "price": 299,
+        "image": "https://hips.hearstapps.com/hmg-prod/images/chicken-fried-rice-horizontal-1545488885.png?crop=0.8893333333333334xw:1xh;center,top&resize=1200:*"
+      },
+      {
+        "name": "Miso Soup",
+        "description": "Japanese soup with tofu, seaweed, and green onions",
+        "price": 149,
+        "image": "https://silkroadrecipes.com/wp-content/uploads/2022/12/Miso-Soup-Recipe-square.jpg"
+      },
+      {
+        "name": "Lasagna",
+        "description": "Layers of pasta with meat sauce, ricotta cheese, and mozzarella cheese",
+        "price": 399,
+        "image": "https://recipes.timesofindia.com/thumb/55369113.cms?width=1200&height=900"
+      },
+      {
+        "name": "Chicken Shawarma",
+        "description": "Grilled chicken with lettuce, tomato, and garlic sauce wrapped in a pita",
+        "price": 249,
+        "image": "https://dinnerthendessert.com/wp-content/uploads/2021/05/Chicken-Shawarma.jpg"
+      },
+      {
+        "name": "Tom Yum Soup",
+        "description": "Spicy and sour soup with shrimp, lemongrass, and lime juice",
+        "price": 299,
+        "image": "https://hot-thai-kitchen.com/wp-content/uploads/2013/03/tom-yum-goong-blog.jpg"
+      },
+      {
+        "name": "Pesto Pasta",
+        "description": "Spaghetti with basil pesto sauce and parmesan cheese",
+        "price": 349,
+        "image": "https://www.funfoodfrolic.com/wp-content/uploads/2020/09/Basil-Pesto-Thumbnail.jpg"
+      },
+      {
+        "name": "Chicken Satay",
+        "description": "Grilled chicken skewers with peanut sauce",
+        "price": 199,
+        "image": "https://hips.hearstapps.com/hmg-prod/images/190418-chicken-satay-horizontal-300-1556573740.jpg?crop=0.8891228070175439xw:1xh;center,top&resize=1200:*"
+      },
+      {
+        "name": "Gyoza",
+        "description": "Japanese dumplings filled with pork and vegetables",
+        "price": 249,
+        "image": "https://cardamommagazine.com/wp-content/uploads/2021/04/chicken-gyoza.jpg"
+      },
+      {
+        "name": "Chicken Noodle Soup",
+        "description": "Classic soup with chicken, vegetables, and egg noodles",
+        "price": 199,
+        "image": "https://www.cubesnjuliennes.com/wp-content/uploads/2022/01/Homemade-Chicken-Noodle-Soup-Recipe.jpg"
+      },
+      {
+        "name": "Biryani",
+        "description": "Spiced rice dish with chicken or lamb and vegetables",
+        "price": 449,
+        "image": "https://cdn.britannica.com/35/225835-050-A5CC289A/Indian-one-pot-meal-for-party.jpg"
+      },
+      {
+        "name": "Tacos",
+        "description": "Soft or crispy tortillas filled with beef, chicken, or vegetables",
+        "price": 299,
+        "image": "https://funwithoutfodmaps.com/wp-content/uploads/2022/07/Low-FODMAP-Beef-Tacos-Square.jpg"
+      },
+      {
+        "name": "Chicken Parmesan",
+        "description": "Breaded chicken with tomato sauce and melted mozzarella cheese",
+        "price": 399,
+        "image": "https://thecozycook.com/wp-content/uploads/2022/08/Chicken-Parmesan-Recipe-f-500x500.jpg"
+      },
+      {
+        "name": "Hummus",
+        "description": "Chickpea dip with tahini, lemon juice, and garlic",
+        "price": 149,
+        "image": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2022/08/Hummus-main-1.jpg"
+      },
+      {
+        "name": "Ramen",
+        "description": "Japanese noodle soup with pork, egg, and vegetables",
+        "price": 349,
+        "image": "https://thecozycook.com/wp-content/uploads/2023/02/Homemade-Ramen-f.jpg"
+      },
+      {
+        "name": "Chicken Fajitas",
+        "description": "Grilled chicken with peppers and onions served with tortillas",
+        "price": 399,
+        "image": "https://www.thespruceeats.com/thmb/-g-eTieVF44gcjxac5wyG0egAo0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/easy-fajitas-recipe-3052908-hero-01-e4dc09dd6b28488191a9ddf700c7441b.jpg"
+      },
+      {
+        "name": "Shrimp Scampi",
+        "description": "Shrimp in a garlic butter sauce served over pasta",
+        "price": 499,
+        "image": "https://www.allrecipes.com/thmb/jiV_4f8vXFle1RdFLgd8-_31J3M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/229960-shrimp-scampi-with-pasta-DDMFS-4x3-e065ddef4e6d44479d37b4523808cc23.jpg"
+      },
+      {
+        "name": "Vegetable Curry",
+        "description": "Assorted vegetables in a spicy curry sauce",
+        "price": 299,
+        "image": "https://greenbowl2soul.com/wp-content/uploads/2021/06/Indian-vegetable-curry.jpg"
+      },
+      {
+        "name": "Chicken Wings",
+        "description": "Crispy fried chicken wings with buffalo sauce",
+        "price": 249,
+        "image": "https://www.budgetbytes.com/wp-content/uploads/2023/01/Air-Fryer-Chicken-Wings-plate.jpg"
+      },
+      {
+        "name": "Mushroom Risotto",
+        "description": "Creamy rice dish with mushrooms and parmesan cheese",
+        "price": 349,
+        "image": "https://hips.hearstapps.com/delish/assets/17/35/1504128527-delish-mushroom-risotto.jpg"
+      },
+      {
+        "name": "Beef Tacos",
+        "description": "Soft or crispy tortillas filled with seasoned ground beef",
+        "price": 299,
+        "image": "https://danosseasoning.com/wp-content/uploads/2022/03/Beef-Tacos.jpg"
+      },
+      {
+        "name": "Chicken Korma",
+        "description": "Chicken in a creamy coconut sauce with spices",
+        "price": 449,
+        "image": "https://static.toiimg.com/thumb/61709928.cms?width=1200&height=900"
+      },
+      {
+        "name": "Caprese Salad",
+        "description": "Tomatoes, mozzarella cheese, and basil drizzled with balsamic vinegar",
+        "price": 199,
+        "image": "https://www.thespruceeats.com/thmb/2pjgFA7_nbZtlXr68BECvf6fO48=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/caprese-salad-tomato-salad-2217097-hero-03-75a0b89b30aa4a52b10fe4fdd9abfeb5.jpg"
+      },
+      {
+        "name": "Pork Fried Rice",
+        "description": "Stir-fried rice with pork, vegetables, and soy sauce",
+        "price": 299,
+        "image": "https://www.allrecipes.com/thmb/aHd6XJ67KZWdQc2kavMHTayC4KM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/7219009-1306d4e50af746a2a65b01df601ed08d.jpg"
+      },
+      {
+        "name": "Chicken Enchiladas",
+        "description": "Tortillas filled with chicken and cheese topped with enchilada sauce",
+        "price": 399,
+        "image": "https://www.simplyrecipes.com/thmb/kLrYV5A7gvIRQzjr_N7QOat1QRA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2006__04__red-chili-chicken-enchiladas-horiz-b-1700-694b9980201a4309a8e6343c04c7fe36.jpg"
+      },
+      {
+        "name": "Beef and Broccoli",
+        "description": "Stir-fried beef and broccoli in a savory sauce served over rice",
+        "price": 449,
+        "image": "https://www.kitchensanctuary.com/wp-content/uploads/2021/01/Beef-and-Broccoli-square-FS.jpg"
+      },
+      {
+        "name": "Caesar Salad",
+        "description": "Romaine lettuce with croutons and parmesan cheese in a creamy dressing",
+        "price": 199,
+        "image": "https://www.jessicagavin.com/wp-content/uploads/2022/06/chicken-caesar-salad-28-1200.jpg"
+      },
+      {
+        "name": "Chicken Alfredo",
+        "description": "Fettuccine pasta with grilled chicken in a creamy parmesan sauce",
+        "price": 399,
+        "image": "https://hips.hearstapps.com/hmg-prod/images/delish-221130-perfect-chicken-alfredo-0683-eb-1670449995.jpg?crop=0.681xw:1.00xh;0.125xw,0&resize=1200:*"
+      },
+      {
+        "name": "Vegetable Stir-Fry",
+        "description": "Assorted vegetables stir-fried in a savory sauce served over rice",
+        "price": 299,
+        "image": "https://d1e3z2jco40k3v.cloudfront.net/-/media/project/oneweb/mccormick-us/mccormick/recipe-images/stir-fry-vegetables-recipe-800x800.jpg?rev=93a14607adf8487098a20c6c2f708b0d&vd=20220914T205534Z&hash=3462A145DB20845D4AB02C88469481FE"
+      },
+      {
+        "name": "Fish Tacos",
+        "description": "Soft or crispy tortillas filled with grilled fish and slaw",
+        "price": 349,
+        "image": "https://hips.hearstapps.com/hmg-prod/images/190307-fish-tacos-112-1553283299.jpg?crop=0.8888888888888888xw:1xh;center,top&resize=1200:*"
+      },
+      {
+        "name": "Chicken Noodle Casserole",
+        "description": "Baked casserole with chicken, noodles, and vegetables in a creamy sauce",
+        "price": 449,
+        "image": "https://bowl-me-over.com/wp-content/uploads/2021/08/Chicken-and-Noodle-Casserole-Recipe.jpg"
+      },
+      {
+        "name": "Greek Salad",
+        "description": "Tomatoes, cucumbers, feta cheese, and olives in a lemon vinaigrette",
+        "price": 199,
+        "image": "https://hips.hearstapps.com/hmg-prod/images/greek-salad-index-642f292397bbf.jpg?crop=0.6666666666666667xw:1xh;center,top&resize=1200:*"
+      },
+      {
+        "name": "Beef and Mushroom Stew",
+        "description": "Slow-cooked beef and mushrooms in a rich gravy served over mashed potatoes",
+        "price": 499,
+        "image": "https://kaynutrition.com/wp-content/uploads/2020/12/beef-mushroom-stew.jpg"
+      },
+      {
+        "name": "Chicken Quesadilla",
+        "description": "Grilled chicken and cheese sandwiched between two tortillas",
+        "price": 299,
+        "image": "https://amandascookin.com/wp-content/uploads/2022/08/Grilled-Chicken-Quesadilla-RCSQ.jpg"
+      },
+      {
+        "name": "Pesto Chicken",
+        "description": "Grilled chicken with basil pesto sauce and mozzarella cheese",
+        "price": 399,
+        "image": "https://www.slenderkitchen.com/sites/default/files/styles/gsd-1x1/public/recipe_images/pesto-chicken.jpg"
+      },
+      {
+        "name": "Vegetable Soup",
+        "description": "Assorted vegetables in a savory broth",
+        "price": 149,
+        "image": "https://www.allrecipes.com/thmb/p4F_knUDCrUNusNOTyjY_dCp8d4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/13338-quick-and-easy-vegetable-soup-DDMFS-4x3-402702f59e7a41519515cecccaba1b80.jpg"
+      },
+      {
+        "name": "Vegetable-Beef Stir Fry",
+        "description": "Stir-fried beef and vegetables in a savory sauce served over rice",
+        "price": 449,
+        "image": "https://www.rachelcooks.com/wp-content/uploads/2022/09/Beef-Stir-Fry-with-Vegetables016-web-square.jpg"
+      },
+      {
+        "name": "Chicken Fettuccine Alfredo",
+        "description": "Fettuccine pasta with grilled chicken in a creamy parmesan sauce",
+        "price": 399,
+        "image": "https://images.themodernproper.com/billowy-turkey/production/posts/ChickenFettuccineAlfredo_11.jpg?w=960&h=960&q=82&fm=jpg&fit=crop&dm=1675190172&s=89dafc9de3618b7673be90fa09af4044"
+      },
+      {
+        "name": "Vegetable Lasagna",
+        "description": "Layers of pasta with vegetables and ricotta cheese",
+        "price": 349,
+        "image": "https://www.smalltownwoman.com/wp-content/uploads/2022/03/Vegetable-Lasagna-Recipe-Card.jpg"
+      },
+      {
+        "name": "Beef and Broccoli Stir-Fry",
+        "description": "Stir-fried beef and broccoli in a savory sauce served over rice",
+        "price": 449,
+        "image": "https://christieathome.com/wp-content/uploads/2020/09/Chinese-Beef-and-Broccoli-9.jpg"
+      },
+      {
+        "name": "Chicken Tacos",
+        "description": "Soft or crispy tortillas filled with grilled chicken and toppings",
+        "price": 299,
+        "image": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FEdit%2F2022-08-Grilled-Chicken-Tacos%2FGrilled_Chicken_Tacos-3"
+      },
+      {
+        "name": "Pesto Shrimp",
+        "description": "Grilled shrimp with basil pesto sauce and parmesan cheese",
+        "price": 499,
+        "image": "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Pesto-Shrimp-Pasta_EXPS_SDJJ19_26010_C02_08_3b.jpg"
+      },
+      {
+        "name": "Vegetable Fried Rice",
+        "description": "Stir-fried rice with assorted vegetables and soy sauce",
+        "price": 249,
+        "image": "https://mission-food.com/wp-content/uploads/2022/01/Spicy-Vegetable-Fried-Rice-Featured.jpg"
+      },
+      {
+        "name": "Beef Stew",
+        "description": "Slow-cooked beef and vegetables in a rich gravy",
+        "price": 449,
+        "image": "https://healthyfitnessmeals.com/wp-content/uploads/2020/01/Classic-beef-stew-4.jpg"
+      }
+    ]
+}
+

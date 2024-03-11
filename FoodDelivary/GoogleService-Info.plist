@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>681148845544-ua40q6eugub8k925b41k24h9g70ltl70.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.681148845544-ua40q6eugub8k925b41k24h9g70ltl70</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCPwFyBB9mKUF1n5tE-tG33gdOjtz1TTEA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>681148845544</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Chohan.FoodDelivary</string>
+	<key>PROJECT_ID</key>
+	<string>fooddelivery-4aa58</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fooddelivery-4aa58.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:681148845544:ios:e84401d866e0f96d3aa85d</string>
+</dict>
+</plist>
