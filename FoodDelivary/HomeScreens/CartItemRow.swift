@@ -11,7 +11,8 @@ import CachedAsyncImage
 struct CartItemRow: View {
     
     let item: FoodItem
-    let cart: Cart
+//    let cart: Cart
+    @Binding var count: Int
     
     var body: some View {
         HStack {
@@ -31,7 +32,6 @@ struct CartItemRow: View {
                         }
                     }
                 }
-                
             }
             
             VStack(alignment: .leading) {
@@ -42,12 +42,12 @@ struct CartItemRow: View {
                     .foregroundColor(.secondary)
             }
             Spacer()
-            Text("$ \(item.price)")
+            Text("$ \(item.price * count)")
                 .font(.headline)
         }
     }
 }
 
 #Preview {
-    CartItemRow(item: .init(name: "", description: "", price: 0, image: ""), cart: .init())
+    CartItemRow(item: .init(name: "", description: "", price: 0, image: ""), count: .constant(0))
 }

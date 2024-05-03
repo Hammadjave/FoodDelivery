@@ -1,14 +1,16 @@
 //
-//  FavouriteTabView.swift
+//  ChatView.swift
 //  FoodDelivary
 //
-//  Created by Chohan on 01/02/2024.
+//  Created by Chohan on 16/02/2024.
 //
 
 import SwiftUI
 
-struct FavouriteTabView: View {
+struct ChatView: View {
+    
     @Binding var presentSideMenu: Bool
+    
     var body: some View {
         VStack{
             HStack{
@@ -21,8 +23,9 @@ struct FavouriteTabView: View {
                 }
                 Spacer()
             }
+            
             Spacer()
-            Text("Hello, Fav Side menu")
+            ChatSideMenuView()
             Spacer()
         }
         .padding(.horizontal, 24)
@@ -30,5 +33,5 @@ struct FavouriteTabView: View {
 }
 
 #Preview {
-    FavouriteTabView(presentSideMenu: .constant(false))
+    ChatView(presentSideMenu: .constant(false))
 }

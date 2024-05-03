@@ -1,9 +1,7 @@
 //
 //  FoodItemDetail.swift
 //  Food Delivery
-//
-//  Created by Aman Bind on 22/05/23.
-//
+
 
 import Foundation
 import SwiftUI
@@ -11,7 +9,7 @@ import CachedAsyncImage
 
 struct FoodItemDetail: View {
     
-    @State private var count: Int = 1
+    @State private var count: Int = 0
     
     let item: FoodItem
     
@@ -52,6 +50,7 @@ struct FoodItemDetail: View {
                         .foregroundColor(.orange)
                     HStack {
                         Button(action: {
+                            
                             count -= 1
                             if count < 0 {
                                 count = 0
@@ -71,6 +70,8 @@ struct FoodItemDetail: View {
                         })
                     }
                 }
+                Text("\(item.price * count)")
+                
                 Text(item.name)
                     .font(.title)
                     .fontWeight(.bold)

@@ -22,14 +22,14 @@ struct SignUpView: View {
     
     @Environment (\.dismiss) private var dismisSignUp
     
-//    let topBar: IntroScreenData
-    
     var signUpTextFields: Bool {
        return !email.isEmpty && !password.isEmpty && !confirmPassword.isEmpty
     }
+    
     var validationPassword: Bool {
         return password == confirmPassword
     }
+    
     var body: some View {
         NavigationView {
             ZStack {

@@ -34,20 +34,26 @@
 		18103EBC2B337E43001DEF22 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 18103EBB2B337E43001DEF22 /* FirebaseRemoteConfigSwift */; };
 		18103EBE2B337E43001DEF22 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 18103EBD2B337E43001DEF22 /* FirebaseStorage */; };
 		18103EC02B337E43001DEF22 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 18103EBF2B337E43001DEF22 /* FirebaseStorageCombine-Community */; };
+		1811F5F32BAECCFD00F8DC81 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811F5F22BAECCFD00F8DC81 /* CustomTabBar.swift */; };
 		18136F5F2B31D4ED006D8FCD /* IntroPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18136F5E2B31D4ED006D8FCD /* IntroPageView.swift */; };
 		18136F632B321C86006D8FCD /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18136F622B321C86006D8FCD /* SignUpView.swift */; };
+		1813F9EF2BDD9CDC005CF061 /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = 1813F9EE2BDD9CDC005CF061 /* AlertToast */; };
 		18243B362B9CEBAA0061693F /* ClassifierModelDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18243B352B9CEBAA0061693F /* ClassifierModelDetection.swift */; };
 		18243B382B9CEE520061693F /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 18243B372B9CEE520061693F /* MobileNetV2.mlmodel */; };
 		18243B3A2B9CF16C0061693F /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18243B392B9CF16C0061693F /* ImageClassifier.swift */; };
 		182A6D692B36125400713398 /* TopBarImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A6D682B36125400713398 /* TopBarImage.swift */; };
 		182A6D6B2B36183600713398 /* LoginPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A6D6A2B36183600713398 /* LoginPageView.swift */; };
 		1842A38B2B5EF56800EE049A /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1842A38A2B5EF56800EE049A /* ForgotPassword.swift */; };
+		184B0C812BA06384002B2889 /* FavouriteItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B0C802BA06384002B2889 /* FavouriteItems.swift */; };
+		184B0C832BA063E6002B2889 /* FavouriteItemsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B0C822BA063E6002B2889 /* FavouriteItemsModel.swift */; };
+		184B0C852BA06850002B2889 /* FavtItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B0C842BA06850002B2889 /* FavtItemRow.swift */; };
 		1856CF3F2B3753F700B30701 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 1856CF3E2B3753F700B30701 /* GoogleSignIn */; };
 		1856CF412B3753F700B30701 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1856CF402B3753F700B30701 /* GoogleSignInSwift */; };
 		1856CF452B37548D00B30701 /* GoogleService-Info .plist in Resources */ = {isa = PBXBuildFile; fileRef = 1856CF442B37548D00B30701 /* GoogleService-Info .plist */; };
 		1856CF482B37571900B30701 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856CF472B37571900B30701 /* AppDelegate.swift */; };
 		1856CF4A2B375AB000B30701 /* GoogleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856CF492B375AB000B30701 /* GoogleButton.swift */; };
 		1856CF4C2B375EB500B30701 /* +View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856CF4B2B375EB500B30701 /* +View.swift */; };
+		185CA8602BBA129B00100C1E /* forgotPAsswordCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CA85F2BBA129B00100C1E /* forgotPAsswordCheck.swift */; };
 		188B67482B2E2DBC0006E224 /* FoodDelivaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B67472B2E2DBC0006E224 /* FoodDelivaryApp.swift */; };
 		188B674A2B2E2DBC0006E224 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B67492B2E2DBC0006E224 /* ContentView.swift */; };
 		188B674C2B2E2DC10006E224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188B674B2B2E2DC10006E224 /* Assets.xcassets */; };
@@ -58,6 +64,8 @@
 		188D5B762B89F4830000A3DD /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188D5B752B89F4830000A3DD /* Cart.swift */; };
 		188D5B782B89F6FA0000A3DD /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188D5B772B89F6FA0000A3DD /* LocationManager.swift */; };
 		188D5B7A2B89F9ED0000A3DD /* CartTabbedScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188D5B792B89F9ED0000A3DD /* CartTabbedScreen.swift */; };
+		188FB4182BE2494000A36EFD /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FB4172BE2494000A36EFD /* PaymentView.swift */; };
+		188FB41B2BE36BCA00A36EFD /* SUIImagePIckerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FB41A2BE36BCA00A36EFD /* SUIImagePIckerModel.swift */; };
 		18995E572B9CDCA1000ACA91 /* ImageDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18995E562B9CDCA1000ACA91 /* ImageDetection.swift */; };
 		18995E592B9CDD76000ACA91 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18995E582B9CDD76000ACA91 /* ImagePicker.swift */; };
 		18997C0F2B30EE3700EFD7E4 /* IntroScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18997C0E2B30EE3700EFD7E4 /* IntroScreenView.swift */; };
@@ -73,18 +81,22 @@
 		189F65DD2B6AD70200D67192 /* BellTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F65DC2B6AD70200D67192 /* BellTabView.swift */; };
 		189F65DF2B6AD75100D67192 /* FavouriteTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F65DE2B6AD75100D67192 /* FavouriteTabView.swift */; };
 		189F65E12B6AD77100D67192 /* CartTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F65E02B6AD77100D67192 /* CartTabView.swift */; };
+		18A3D3DC2BBC74C70031DD61 /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3D3DB2BBC74C70031DD61 /* Practice.swift */; };
 		18A4776D2B6E4A3300406099 /* DecodeJsonFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A4776C2B6E4A3300406099 /* DecodeJsonFile.swift */; };
 		18AB49632B5EA536000A26CC /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB49622B5EA536000A26CC /* HomeScreen.swift */; };
 		18AC24122B5EEDED000B4294 /* OTPField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AC24112B5EEDED000B4294 /* OTPField.swift */; };
 		18AE2C212B6D77F600A1A4F0 /* HomeTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AE2C202B6D77F600A1A4F0 /* HomeTopBar.swift */; };
 		18B0E3CF2B852795002A279F /* FoodItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0E3CE2B852795002A279F /* FoodItemRow.swift */; };
 		18B0E3D22B852D00002A279F /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 18B0E3D12B852D00002A279F /* CachedAsyncImage */; };
+		18B7F6D52BE4D5F100CB0E2D /* ChatSideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B7F6D42BE4D5F100CB0E2D /* ChatSideMenuView.swift */; };
+		18B7F6D72BE4E14500CB0E2D /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B7F6D62BE4E14500CB0E2D /* ChatViewModel.swift */; };
 		18BE642A2B8E1C6500225F37 /* ExtensionNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE64292B8E1C6500225F37 /* ExtensionNotification.swift */; };
 		18E278FC2B7E96CA00370B7A /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E278FB2B7E96CA00370B7A /* ChatView.swift */; };
 		18F671C82B7100AC00071941 /* food.json in Resources */ = {isa = PBXBuildFile; fileRef = 18F671C72B7100AC00071941 /* food.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1811F5F22BAECCFD00F8DC81 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		18136F5E2B31D4ED006D8FCD /* IntroPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroPageView.swift; sourceTree = "<group>"; };
 		18136F622B321C86006D8FCD /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		18243B352B9CEBAA0061693F /* ClassifierModelDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifierModelDetection.swift; sourceTree = "<group>"; };
@@ -93,11 +105,15 @@
 		182A6D682B36125400713398 /* TopBarImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarImage.swift; sourceTree = "<group>"; };
 		182A6D6A2B36183600713398 /* LoginPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageView.swift; sourceTree = "<group>"; };
 		1842A38A2B5EF56800EE049A /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		184B0C802BA06384002B2889 /* FavouriteItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteItems.swift; sourceTree = "<group>"; };
+		184B0C822BA063E6002B2889 /* FavouriteItemsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteItemsModel.swift; sourceTree = "<group>"; };
+		184B0C842BA06850002B2889 /* FavtItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavtItemRow.swift; sourceTree = "<group>"; };
 		1856CF3C2B37514100B30701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1856CF442B37548D00B30701 /* GoogleService-Info .plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info .plist"; sourceTree = "<group>"; };
 		1856CF472B37571900B30701 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1856CF492B375AB000B30701 /* GoogleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleButton.swift; sourceTree = "<group>"; };
 		1856CF4B2B375EB500B30701 /* +View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+View.swift"; sourceTree = "<group>"; };
+		185CA85F2BBA129B00100C1E /* forgotPAsswordCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgotPAsswordCheck.swift; sourceTree = "<group>"; };
 		188B67442B2E2DBC0006E224 /* FoodDelivary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDelivary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		188B67472B2E2DBC0006E224 /* FoodDelivaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDelivaryApp.swift; sourceTree = "<group>"; };
 		188B67492B2E2DBC0006E224 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +125,8 @@
 		188D5B752B89F4830000A3DD /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 		188D5B772B89F6FA0000A3DD /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		188D5B792B89F9ED0000A3DD /* CartTabbedScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTabbedScreen.swift; sourceTree = "<group>"; };
+		188FB4172BE2494000A36EFD /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		188FB41A2BE36BCA00A36EFD /* SUIImagePIckerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUIImagePIckerModel.swift; sourceTree = "<group>"; };
 		18995E562B9CDCA1000ACA91 /* ImageDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetection.swift; sourceTree = "<group>"; };
 		18995E582B9CDD76000ACA91 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		18997C0E2B30EE3700EFD7E4 /* IntroScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreenView.swift; sourceTree = "<group>"; };
@@ -124,11 +142,14 @@
 		189F65DC2B6AD70200D67192 /* BellTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellTabView.swift; sourceTree = "<group>"; };
 		189F65DE2B6AD75100D67192 /* FavouriteTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteTabView.swift; sourceTree = "<group>"; };
 		189F65E02B6AD77100D67192 /* CartTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTabView.swift; sourceTree = "<group>"; };
+		18A3D3DB2BBC74C70031DD61 /* Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
 		18A4776C2B6E4A3300406099 /* DecodeJsonFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodeJsonFile.swift; sourceTree = "<group>"; };
 		18AB49622B5EA536000A26CC /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		18AC24112B5EEDED000B4294 /* OTPField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPField.swift; sourceTree = "<group>"; };
 		18AE2C202B6D77F600A1A4F0 /* HomeTopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTopBar.swift; sourceTree = "<group>"; };
 		18B0E3CE2B852795002A279F /* FoodItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemRow.swift; sourceTree = "<group>"; };
+		18B7F6D42BE4D5F100CB0E2D /* ChatSideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSideMenuView.swift; sourceTree = "<group>"; };
+		18B7F6D62BE4E14500CB0E2D /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
 		18BE64292B8E1C6500225F37 /* ExtensionNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionNotification.swift; sourceTree = "<group>"; };
 		18E278FB2B7E96CA00370B7A /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		18F4EE162B61541A004AE14C /* FoodDelivary.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FoodDelivary.entitlements; sourceTree = "<group>"; };
@@ -148,6 +169,7 @@
 				18103E8E2B337E43001DEF22 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
 				18103EB42B337E43001DEF22 /* FirebaseMLModelDownloader in Frameworks */,
 				1856CF412B3753F700B30701 /* GoogleSignInSwift in Frameworks */,
+				1813F9EF2BDD9CDC005CF061 /* AlertToast in Frameworks */,
 				18103EA82B337E43001DEF22 /* FirebaseFirestoreSwift in Frameworks */,
 				18103E942B337E43001DEF22 /* FirebaseAppCheck in Frameworks */,
 				18103E922B337E43001DEF22 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
@@ -176,6 +198,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1811F5F12BAECCB700F8DC81 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				1811F5F22BAECCFD00F8DC81 /* CustomTabBar.swift */,
+				18A3D3DB2BBC74C70031DD61 /* Practice.swift */,
+			);
+			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
 		18136F612B321C06006D8FCD /* CreateAccountScreen */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +222,16 @@
 				1856CF492B375AB000B30701 /* GoogleButton.swift */,
 			);
 			path = TopBarImage;
+			sourceTree = "<group>";
+		};
+		184B0C7F2BA06347002B2889 /* FavtItems */ = {
+			isa = PBXGroup;
+			children = (
+				184B0C802BA06384002B2889 /* FavouriteItems.swift */,
+				184B0C822BA063E6002B2889 /* FavouriteItemsModel.swift */,
+				184B0C842BA06850002B2889 /* FavtItemRow.swift */,
+			);
+			path = FavtItems;
 			sourceTree = "<group>";
 		};
 		1856CF462B3756F300B30701 /* Helper */ = {
@@ -236,11 +277,12 @@
 				1856CF3C2B37514100B30701 /* Info.plist */,
 				18F4EE162B61541A004AE14C /* FoodDelivary.entitlements */,
 				18BE64282B8E1C2900225F37 /* NotificationEvent */,
-				18AB49612B5EA4F8000A26CC /* HomeVM */,
+				18AB49612B5EA4F8000A26CC /* HomeScreens */,
+				188FB4162BE248D800A36EFD /* PaymentView */,
+				1811F5F12BAECCB700F8DC81 /* CustomTabBar */,
 				189CB1CF2B9E3501007B4C7D /* BankCard */,
 				189F65D12B6ACE8700D67192 /* SideMenu */,
 				18997C0D2B30EDD600EFD7E4 /* IntroScreen */,
-				18136F612B321C06006D8FCD /* CreateAccountScreen */,
 				18AC24132B5EEF7D000B4294 /* LoginScreenView */,
 				18AC24142B5EEFB0000B4294 /* OTP View */,
 				182A6D672B36121700713398 /* TopBarImage */,
@@ -262,6 +304,22 @@
 				188B674E2B2E2DC10006E224 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		188FB4162BE248D800A36EFD /* PaymentView */ = {
+			isa = PBXGroup;
+			children = (
+				188FB4172BE2494000A36EFD /* PaymentView.swift */,
+			);
+			path = PaymentView;
+			sourceTree = "<group>";
+		};
+		188FB4192BE36BA300A36EFD /* SUIImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				188FB41A2BE36BCA00A36EFD /* SUIImagePIckerModel.swift */,
+			);
+			path = SUIImagePicker;
 			sourceTree = "<group>";
 		};
 		18995E552B9CDC55000ACA91 /* ImageDetection */ = {
@@ -301,17 +359,17 @@
 				189F65D42B6ACF4E00D67192 /* SideMenu.swift */,
 				189F65D62B6AD0EE00D67192 /* SideMenuRowVM.swift */,
 				189F65D82B6AD13400D67192 /* SideMenuView.swift */,
-				18E278FB2B7E96CA00370B7A /* ChatView.swift */,
+				188FB4192BE36BA300A36EFD /* SUIImagePicker */,
+				18136F612B321C06006D8FCD /* CreateAccountScreen */,
 			);
 			path = SideMenu;
 			sourceTree = "<group>";
 		};
-		18AB49612B5EA4F8000A26CC /* HomeVM */ = {
+		18AB49612B5EA4F8000A26CC /* HomeScreens */ = {
 			isa = PBXGroup;
 			children = (
-				18AB49622B5EA536000A26CC /* HomeScreen.swift */,
-				189F65CF2B6AC7FB00D67192 /* HouseTabView.swift */,
 				189F65DC2B6AD70200D67192 /* BellTabView.swift */,
+				18E278FB2B7E96CA00370B7A /* ChatView.swift */,
 				189F65DE2B6AD75100D67192 /* FavouriteTabView.swift */,
 				189F65E02B6AD77100D67192 /* CartTabView.swift */,
 				18AE2C202B6D77F600A1A4F0 /* HomeTopBar.swift */,
@@ -321,8 +379,11 @@
 				188D5B752B89F4830000A3DD /* Cart.swift */,
 				188D5B772B89F6FA0000A3DD /* LocationManager.swift */,
 				188D5B792B89F9ED0000A3DD /* CartTabbedScreen.swift */,
+				18B7F6D82BE4EE1200CB0E2D /* HomeView */,
+				184B0C7F2BA06347002B2889 /* FavtItems */,
+				18B7F6D32BE4D5BF00CB0E2D /* ChatSideMenu */,
 			);
-			path = HomeVM;
+			path = HomeScreens;
 			sourceTree = "<group>";
 		};
 		18AC24132B5EEF7D000B4294 /* LoginScreenView */ = {
@@ -330,6 +391,7 @@
 			children = (
 				182A6D6A2B36183600713398 /* LoginPageView.swift */,
 				1842A38A2B5EF56800EE049A /* ForgotPassword.swift */,
+				185CA85F2BBA129B00100C1E /* forgotPAsswordCheck.swift */,
 			);
 			path = LoginScreenView;
 			sourceTree = "<group>";
@@ -340,6 +402,24 @@
 				18AC24112B5EEDED000B4294 /* OTPField.swift */,
 			);
 			path = "OTP View";
+			sourceTree = "<group>";
+		};
+		18B7F6D32BE4D5BF00CB0E2D /* ChatSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				18B7F6D42BE4D5F100CB0E2D /* ChatSideMenuView.swift */,
+				18B7F6D62BE4E14500CB0E2D /* ChatViewModel.swift */,
+			);
+			path = ChatSideMenu;
+			sourceTree = "<group>";
+		};
+		18B7F6D82BE4EE1200CB0E2D /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				18AB49622B5EA536000A26CC /* HomeScreen.swift */,
+				189F65CF2B6AC7FB00D67192 /* HouseTabView.swift */,
+			);
+			path = HomeView;
 			sourceTree = "<group>";
 		};
 		18BE64282B8E1C2900225F37 /* NotificationEvent */ = {
@@ -397,6 +477,7 @@
 				1856CF3E2B3753F700B30701 /* GoogleSignIn */,
 				1856CF402B3753F700B30701 /* GoogleSignInSwift */,
 				18B0E3D12B852D00002A279F /* CachedAsyncImage */,
+				1813F9EE2BDD9CDC005CF061 /* AlertToast */,
 			);
 			productName = FoodDelivary;
 			productReference = 188B67442B2E2DBC0006E224 /* FoodDelivary.app */;
@@ -430,6 +511,7 @@
 				18103E8A2B337E43001DEF22 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				1856CF3D2B3753F700B30701 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				18B0E3D02B852D00002A279F /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+				1813F9ED2BDD9CDC005CF061 /* XCRemoteSwiftPackageReference "AlertToast" */,
 			);
 			productRefGroup = 188B67452B2E2DBC0006E224 /* Products */;
 			projectDirPath = "";
@@ -462,6 +544,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				189F65D72B6AD0EE00D67192 /* SideMenuRowVM.swift in Sources */,
+				188FB4182BE2494000A36EFD /* PaymentView.swift in Sources */,
 				18243B382B9CEE520061693F /* MobileNetV2.mlmodel in Sources */,
 				18997C0F2B30EE3700EFD7E4 /* IntroScreenView.swift in Sources */,
 				18B0E3CF2B852795002A279F /* FoodItemRow.swift in Sources */,
@@ -475,27 +558,36 @@
 				188D5B782B89F6FA0000A3DD /* LocationManager.swift in Sources */,
 				188D5B762B89F4830000A3DD /* Cart.swift in Sources */,
 				18E278FC2B7E96CA00370B7A /* ChatView.swift in Sources */,
+				184B0C812BA06384002B2889 /* FavouriteItems.swift in Sources */,
 				189F65DF2B6AD75100D67192 /* FavouriteTabView.swift in Sources */,
 				18A4776D2B6E4A3300406099 /* DecodeJsonFile.swift in Sources */,
 				188B674A2B2E2DBC0006E224 /* ContentView.swift in Sources */,
+				18A3D3DC2BBC74C70031DD61 /* Practice.swift in Sources */,
 				1856CF482B37571900B30701 /* AppDelegate.swift in Sources */,
 				1856CF4A2B375AB000B30701 /* GoogleButton.swift in Sources */,
+				18B7F6D52BE4D5F100CB0E2D /* ChatSideMenuView.swift in Sources */,
 				188D5B722B8750470000A3DD /* FoodItemDetail.swift in Sources */,
 				18995E592B9CDD76000ACA91 /* ImagePicker.swift in Sources */,
 				189F65D52B6ACF4E00D67192 /* SideMenu.swift in Sources */,
+				188FB41B2BE36BCA00A36EFD /* SUIImagePIckerModel.swift in Sources */,
 				189F65E12B6AD77100D67192 /* CartTabView.swift in Sources */,
 				189CB1D12B9E35BC007B4C7D /* CardDetail.swift in Sources */,
 				18AE2C212B6D77F600A1A4F0 /* HomeTopBar.swift in Sources */,
+				185CA8602BBA129B00100C1E /* forgotPAsswordCheck.swift in Sources */,
 				18997C112B30EE7400EFD7E4 /* IntroScreenData.swift in Sources */,
 				18BE642A2B8E1C6500225F37 /* ExtensionNotification.swift in Sources */,
 				189F65CC2B6A8AB000D67192 /* ModelsJsonData.swift in Sources */,
 				1856CF4C2B375EB500B30701 /* +View.swift in Sources */,
 				18136F5F2B31D4ED006D8FCD /* IntroPageView.swift in Sources */,
 				189F65D02B6AC7FB00D67192 /* HouseTabView.swift in Sources */,
+				184B0C852BA06850002B2889 /* FavtItemRow.swift in Sources */,
 				18AB49632B5EA536000A26CC /* HomeScreen.swift in Sources */,
 				18136F632B321C86006D8FCD /* SignUpView.swift in Sources */,
+				184B0C832BA063E6002B2889 /* FavouriteItemsModel.swift in Sources */,
 				189F65DB2B6AD23900D67192 /* MainTabbedView.swift in Sources */,
 				1842A38B2B5EF56800EE049A /* ForgotPassword.swift in Sources */,
+				18B7F6D72BE4E14500CB0E2D /* ChatViewModel.swift in Sources */,
+				1811F5F32BAECCFD00F8DC81 /* CustomTabBar.swift in Sources */,
 				188B67482B2E2DBC0006E224 /* FoodDelivaryApp.swift in Sources */,
 				188D5B7A2B89F9ED0000A3DD /* CartTabbedScreen.swift in Sources */,
 				182A6D6B2B36183600713398 /* LoginPageView.swift in Sources */,
@@ -725,6 +817,14 @@
 				minimumVersion = 10.19.1;
 			};
 		};
+		1813F9ED2BDD9CDC005CF061 /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/elai950/AlertToast.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.9;
+			};
+		};
 		1856CF3D2B3753F700B30701 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
@@ -878,6 +978,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 18103E8A2B337E43001DEF22 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = "FirebaseStorageCombine-Community";
+		};
+		1813F9EE2BDD9CDC005CF061 /* AlertToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1813F9ED2BDD9CDC005CF061 /* XCRemoteSwiftPackageReference "AlertToast" */;
+			productName = AlertToast;
 		};
 		1856CF3E2B3753F700B30701 /* GoogleSignIn */ = {
 			isa = XCSwiftPackageProductDependency;

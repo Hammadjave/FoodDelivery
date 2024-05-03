@@ -10,9 +10,9 @@ import Foundation
 
 class Cart: ObservableObject {
     @Published var items: [FoodItem] = []
-    var totalPrice: Int {
-        items.reduce(0) { $0 + $1.price }
-    }
+//    var totalPrice: Int {
+//        items.reduce(0) { $0 + $1.price }
+//    }
     
     func addItem(_ item: FoodItem) {
         items.append(item)

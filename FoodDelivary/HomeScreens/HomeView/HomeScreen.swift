@@ -10,20 +10,22 @@ import SwiftUI
 struct HomeScreen: View {
     @Binding var presentSideMenu: Bool
     var body: some View {
-        VStack {
+        ZStack {
+//            CustomTabBar()
+           
             TabView {
                 HouseTabView(presentSideMenu: $presentSideMenu)
                     .tabItem {
                         Label("Home", systemImage: "house")
                     }
-                Text("Items Like")
+                FavouriteItems()
                     .tabItem {
                         Label("Fav", systemImage: "heart.circle")
                     }
-                BellTabView()
-                    .tabItem {
-                        Label("Notification", systemImage: "bell")
-                    }
+//                BellTabView()
+//                    .tabItem {
+//                        Label("Notification", systemImage: "bell")
+//                    }
                 CartTabbedScreen()
                     .tabItem {
                         Label("Cart", systemImage: "cart")

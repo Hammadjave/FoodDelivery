@@ -20,6 +20,8 @@ struct MainTabbedView: View {
                     .tag(0)
                     FavouriteTabView(presentSideMenu: $presentSideMenu)
                     .tag(1)
+                ChatView(presentSideMenu: $presentSideMenu)
+                    .tag(2)
             }
             SideMenu(isShowing: $presentSideMenu, content: AnyView(SideMenuView(selectedSideMenuTab: $selectedSideMenuTab, presentSideMenu: $presentSideMenu)))
         }

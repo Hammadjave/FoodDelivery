@@ -7,7 +7,7 @@
 import Foundation
 
 struct FoodItem: Identifiable, Equatable, Decodable {
-    let id = UUID()
+    var id : String {name}
     let name: String
     let description: String
     let price: Int

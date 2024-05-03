@@ -12,8 +12,9 @@ struct IntroScreenData: Identifiable, Equatable {
     let title: String
     let image: String
     
-    static var sampleDatas: [IntroScreenData] = [
+    static let sampleDatas: [IntroScreenData] = [
         IntroScreenData(id: 0, title: "Order from your favourite\nstores or vendors", image: "Mobile"),
         IntroScreenData(id: 1, title: "Choose from a wide range of delicious meals", image: "MealIcon"),
-        IntroScreenData(id: 2, title: "Enjoy instant delivery and payment", image: "MaskBoy")]
+        IntroScreenData(id: 2, title: "Enjoy instant delivery and payment", image: "MaskBoy")
+    ]
 }

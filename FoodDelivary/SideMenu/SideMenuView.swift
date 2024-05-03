@@ -12,6 +12,12 @@ import FirebaseAuth
 struct SideMenuView: View {
     @Binding var selectedSideMenuTab: Int
     @Binding var presentSideMenu: Bool
+    
+    @State var image: Image? = Image("")
+    @State private var shouldPresentImagePicker = false
+    @State private var shouldPresentActionScheet = false
+    @State private var shouldPresentCamera = false
+    
     var body: some View {
         HStack {
                    
@@ -55,8 +61,6 @@ struct SideMenuView: View {
                            Color.white
                        )
                    }
-                   
-                   
                    Spacer()
                }
                .background(.clear)
@@ -65,23 +69,44 @@ struct SideMenuView: View {
     
     
            
-           func ProfileImageView() -> some View{
+           func ProfileImageView() -> some View {
                VStack(alignment: .center){
-                   HStack{
+                   HStack(spacing: 0) {
                        Spacer()
-                       Image("Person")
-                           .resizable()
-                           .aspectRatio(contentMode: .fill)
-                           .frame(width: 100, height: 100)
-                           .overlay(
-                               RoundedRectangle(cornerRadius: 50)
-                                   .stroke(.purple.opacity(0.5), lineWidth: 10)
-                           )
-                           .cornerRadius(50)
+//                       Image(systemName: "person")
+//                           .resizable()
+//                           .aspectRatio(contentMode: .fill)
+//                           .frame(width: 100, height: 100)
+//                           .overlay(
+//                               RoundedRectangle(cornerRadius: 50)
+//                                   .stroke(.purple.opacity(0.5), lineWidth: 10)
+//                           )
+//                           .cornerRadius(50)
+                       VStack {
+                           image?
+                               .resizable()
+                               .aspectRatio(contentMode: .fill)
+                               .frame(width: 70, height: 70)
+                               .clipShape(Circle())
+                               .overlay(Circle().stroke(Color.white, lineWidth: 4))
+                               .shadow(radius: 10)
+                               .onTapGesture { self.shouldPresentActionScheet = true }
+                               .sheet(isPresented: $shouldPresentImagePicker) {
+                                   SUImagePickerView(sourceType: self.shouldPresentCamera ? .camera : .photoLibrary, image: self.$image, isPresented: self.$shouldPresentImagePicker)
+                               }.actionSheet(isPresented: $shouldPresentActionScheet) { () -> ActionSheet in
+                                   ActionSheet(title: Text("Choose mode"), message: Text("Please choose your preferred mode to set your profile image"), buttons: [ActionSheet.Button.default(Text("Camera"), action: {
+                                       self.shouldPresentImagePicker = true
+                                       self.shouldPresentCamera = true
+                                   }), ActionSheet.Button.default(Text("Photo Library"), action: {
+                                       self.shouldPresentImagePicker = true
+                                       self.shouldPresentCamera = false
+                                   }), ActionSheet.Button.cancel()])
+                               }
+                           Text("Add Photo")
+                       }
                        Spacer()
                    }
-                   
-                   Text("Hammad Javeed")
+                   Text("Hammad")
                        .font(.system(size: 18, weight: .bold))
                        .foregroundColor(.black)
                    

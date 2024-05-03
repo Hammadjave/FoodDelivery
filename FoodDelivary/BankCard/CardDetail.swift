@@ -6,11 +6,19 @@
 //
 
 import SwiftUI
+import AlertToast
 
 struct CardDetail: View {
     @State private var cardDetail = ""
     @State private var expCard = ""
     @State private var cVVCard = ""
+    
+    @State private var showToast = false
+    
+    var allTextFiledsFill: Bool {
+        return !cardDetail.isEmpty && !expCard.isEmpty && !cVVCard.isEmpty
+    }
+    
     var body: some View {
         ZStack {
             Color(red: 0.97, green: 0.98, blue: 1)
@@ -61,7 +69,9 @@ struct CardDetail: View {
                         Spacer()
                 }
                 Spacer()
-                Button(action: {}, label: {
+                Button(action: {
+                    showToast.toggle()
+                }, label: {
                     Text("Pay now")
                         .foregroundColor(.white)
                         .padding(.horizontal, 20)
@@ -81,7 +91,13 @@ struct CardDetail: View {
                         .shadow(color: Color(red: 0.79, green: 0.26, blue: 0.07).opacity(0.1), radius: 15, x: 0, y: 10)
                 })
                 .buttonStyle(.plain)
+                .disabled(!allTextFiledsFill)
+                Spacer()
+                    .padding(.bottom, 40)
             }
+        }
+        .toast(isPresenting: $showToast) {
+            AlertToast(displayMode: .alert, type: .systemImage("CongrulationImage", Color.secondary), title: "Your order has been successfully placed")
         }
     }
 }

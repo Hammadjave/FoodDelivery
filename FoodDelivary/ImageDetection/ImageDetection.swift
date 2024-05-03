@@ -17,23 +17,33 @@ struct ImageDetection: View {
     @Environment (\.dismiss) var dissmiss
     
     var body: some View {
-        VStack{
-            HStack{
+        VStack(spacing: 0) {
+            HStack(spacing: 0) {
+                Button(action: {
+                    dissmiss()
+                }, label: {
+                    Image(systemName: "cross")
+                })
+                Spacer()
+                    .frame(maxWidth: .infinity)
                 Image(systemName: "photo")
                     .onTapGesture {
                         isPresenting = true
                         sourceType = .photoLibrary
                     }
-                
+                Spacer()
+                    .frame(maxWidth: .infinity)
                 Image(systemName: "camera")
                     .onTapGesture {
                         isPresenting = true
                         sourceType = .camera
                     }
+//                Spacer()
+//                    .frame(maxWidth: .infinity)
             }
-            .font(.title)
+            .font(.title)   
             .foregroundColor(.blue)
-            
+//            .padding(.horizontal, 15)
             Rectangle()
                 .strokeBorder()
                 .foregroundColor(.yellow)
@@ -75,6 +85,7 @@ struct ImageDetection: View {
                 .padding()
             }
         }
+        .padding()
         .sheet(isPresented: $isPresenting){
             ImagePicker(uiImage: $uiImage, isPresenting:  $isPresenting, sourceType: $sourceType)
                 .onDisappear{
@@ -84,7 +95,6 @@ struct ImageDetection: View {
                 }
             
         }
-        .padding()
     }
 }
 

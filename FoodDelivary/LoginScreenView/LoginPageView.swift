@@ -13,7 +13,12 @@ import Firebase
 struct LoginPageView: View {
     @State private var email: String = ""
     @State private var password: String = ""
+    @State private var loginError: String?
     @State private var sheet = false
+    
+    var loginValidate: Bool {
+        return !email.isEmpty && !password.isEmpty
+    }
     
     var body: some View {
         NavigationStack {
@@ -70,7 +75,13 @@ struct LoginPageView: View {
                             .cornerRadius(15)
                             .padding(.top, 5)
                         
-                        NavigationLink(destination: ForgotPassword(), label: {
+                        if let error = loginError {
+                            Text(error)
+                                .foregroundColor(.red)
+                                .padding()
+                        }
+                        
+                        NavigationLink(destination: forgotPAsswordCheck(), label: {
                             Spacer()
                             Text("Forgot password?")
                                 .frame(alignment: .trailing)
@@ -92,6 +103,7 @@ struct LoginPageView: View {
                     .offset(y: -70)
                     .padding()
                     .buttonStyle(.plain)
+                    .disabled(!loginValidate)
                     
                     GoogleButton {
                         guard let clientID = FirebaseApp.app()?.options.clientID else { return }
@@ -151,13 +163,20 @@ struct LoginPageView: View {
                         SignUpView()
                     }
                 }
-//                .navigationBarBackButtonHidden(true)
             }
         }
     }
     func login() {
         Auth.auth().signIn(withEmail: email, password: password) { result, error in
-            UserDefaults.standard.set(true, forKey: "signIn")
+            if let error  {
+                // Handle login error, for example, display an alert to the user
+                print("Error signing in: \(error.localizedDescription)")
+                loginError = "Invalid email or password. Please try again." // Display error message to the user
+            } else {
+                // Login successful, navigate to main content or perform other actions
+                print("User signed in successfully!")
+                UserDefaults.standard.set(true, forKey: "signIn")
+            }
         }
     }
 }

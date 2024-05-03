@@ -12,7 +12,7 @@ struct IntroPageView: View {
     @State private var isSheetPresnet = false
     @State private var loginSheetPresnet = false
     private let sampleDatas: [IntroScreenData] = IntroScreenData.sampleDatas
-    private var isLastPage: Bool { pageIndex == sampleDatas.count - 1}
+    private var isLastPage: Bool { pageIndex == sampleDatas.count - 1 }
     
     let intro: IntroScreenData
     var body: some View {
@@ -53,7 +53,6 @@ struct IntroPageView: View {
                 }
             }
         }
-        
     }
     
     // MARK: - Private Functions

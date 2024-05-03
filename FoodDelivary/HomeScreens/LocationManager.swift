@@ -14,7 +14,7 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
     @Published var userLocation : CLLocation! 
     @Published var userAddress = ""
 
-    func locationManager(_ manager: CLLocationManager) {
+    func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
         switch manager.authorizationStatus {
         case.authorizedWhenInUse :
             print("authorized")
@@ -26,13 +26,19 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
             locationManager.requestWhenInUseAuthorization()
         }
     }
+    
+    
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         print(error.localizedDescription)
     }
+    
+    
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         self.userLocation = locations.last
         self.extractLocation()
     }
+    
+    
     func extractLocation() {
         CLGeocoder().reverseGeocodeLocation(self.userLocation) { (res, err) in
             guard let safeData  = res else{return}

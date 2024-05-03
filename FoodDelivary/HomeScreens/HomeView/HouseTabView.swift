@@ -11,6 +11,7 @@ struct HouseTabView: View {
     
     @State private var searchText = ""
     @State private var presentSheet = false
+//    let item : FoodItem
     
     let foodItems: [FoodItem] = {
         guard let url = Bundle.main.url(forResource: "food", withExtension: "json") else {
@@ -48,7 +49,9 @@ struct HouseTabView: View {
                         
                         Spacer()
                         Text(location.userLocation == nil ? "Locating..." : "Delivary To")
+                            .lineLimit(0)
                         Text(location.userAddress)
+                            
                         Spacer()
                         Button(action: {
                             presentSheet.toggle()
@@ -81,16 +84,13 @@ struct HouseTabView: View {
                     }
                     .listStyle(.plain)
                     .listRowSeparator(.hidden)
-
-                    //                    .searchable(text: $searchText)
+                    .buttonStyle(BorderlessButtonStyle())
                 }
                 Spacer()
             }
-//            .toolbar(.hidden, for: .navigationBar)
         }
         .onAppear {
             location.locationManager.delegate = location
-            
         }
     }
 }
